@@ -10,6 +10,7 @@ public class CarroServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CarroServiceApplication.class, args);
+		System.out.println("carro exitoso");
 	}
 
 }
