@@ -7,7 +7,7 @@ import com.usuario.service.modelos.Carro;
 
 import java.util.List;
 
-@FeignClient(name = "carro-service", url= "http://localhost:8082")
+@FeignClient(name = "carro-service", url= "http://localhost:8002")
 @RequestMapping("/carro")
 public interface CarroFeignClient {
 

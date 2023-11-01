@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: eureka
+          default-label: master
           uri: https://github.com/Harlam7/microservicios
-          search-paths: config-data
+          search-paths: master
   application:
     name: config-service
