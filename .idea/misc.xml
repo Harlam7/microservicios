@@ -11,11 +11,13 @@
         <option value="$PROJECT_DIR$/config-service/pom.xml" />
         <option value="$PROJECT_DIR$/config-service/config-data/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-service2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/config-service/config-data/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
       </set>
     </option>
   </component>

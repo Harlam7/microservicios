@@ -1,29 +1,10 @@
+
 spring:
+  main:
+    web-application-type: REACTIVE
   application:
-    name: usuario-service
+    name: gateway-service
   cloud:
     config:
       enabled: true
       uri: http://localhost:8081
-server:
-  port: 8005
-
-  spring:
-    cloud:
-      gateway:
-        discovery:
-          locator:
-            enabled: true
-        routes:
-          - id: usuario-service
-            uri: lb://usuario-service
-            predicates:
-              - Path=/usuario/**
-          - id: carro-service
-            uri: lb://carro-service
-            predicates:
-              - Path=/carro/**
-          - id: moto-service
-            uri: lb://moto-service
-            predicates:
-              - Path=/moto/**
